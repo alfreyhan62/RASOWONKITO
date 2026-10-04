@@ -24,7 +24,7 @@ function HeroSection() {
       <div
         className="hero h-[760px]"
         style={{
-          backgroundImage: "url('/about.jpg')",
+          backgroundImage: "url('/about.webp')",
         }}
       >
         <div className="hero-overlay"></div>
@@ -71,6 +71,8 @@ function SejarahSection() {
         <div className="max-w-195 mx-auto">
           <div id="tahun2024" className="tab-content">
             <img
+              loading="lazy"
+              decoding="async"
               src="/gif/an1.gif"
               className="mx-auto rounded-lg shadow-2xl w-120 border-2 border-yellow-400"
             />
@@ -87,6 +89,8 @@ function SejarahSection() {
 
           <div id="tahun2025" className="tab-content">
             <img
+              loading="lazy"
+              decoding="async"
               src="/gif/an2.gif"
               className="mx-auto rounded-lg shadow-2xl w-120 border-2 border-red-800"
             />

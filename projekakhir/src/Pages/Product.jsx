@@ -33,7 +33,7 @@ function HeroProduct() {
       <div
         className="hero h-[760px]"
         style={{
-          backgroundImage: "url('/hero2.jpg')",
+          backgroundImage: "url('/hero2.webp')",
         }}
       >
         <div className="hero-overlay"></div>
@@ -64,7 +64,9 @@ function SectionProduct1() {
         <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-5 gap-6 max-w-6xl mx-auto px-4 ">
           <div class="reveal-on-scroll bg-white rounded-xl shadow-md overflow-hidden transition-transform duration-300 hover:shadow-xl hover:-translate-y-2">
             <img
-              src="/menu/pempek.jpg"
+              loading="lazy"
+              decoding="async"
+              src="/menu/pempek.webp"
               alt="Pempek"
               class="w-full h-48 object-cover"
             />
@@ -86,7 +88,9 @@ function SectionProduct1() {
 
           <div class="reveal-on-scroll bg-white rounded-xl shadow-md overflow-hidden transition-transform duration-300 hover:shadow-xl hover:-translate-y-2">
             <img
-              src="/menu/tekwan.jpg"
+              loading="lazy"
+              decoding="async"
+              src="/menu/tekwan.webp"
               alt="Tekwan"
               class="w-full h-48 object-cover"
             />
@@ -109,7 +113,9 @@ function SectionProduct1() {
 
           <div class="reveal-on-scroll bg-white rounded-xl shadow-md overflow-hidden transition-transform duration-300 hover:shadow-xl hover:-translate-y-2">
             <img
-              src="/menu/mie celor.jpg"
+              loading="lazy"
+              decoding="async"
+              src="/menu/mie celor.webp"
               alt="Mie Celor"
               class="w-full h-48 object-cover"
             />
@@ -131,7 +137,9 @@ function SectionProduct1() {
 
           <div class="reveal-on-scroll bg-white rounded-xl shadow-md overflow-hidden transition-transform duration-300 hover:shadow-xl hover:-translate-y-2">
             <img
-              src="/menu/laksan.jpg"
+              loading="lazy"
+              decoding="async"
+              src="/menu/laksan.webp"
               alt="Laksan"
               class="w-full h-48 object-cover"
             />
@@ -154,7 +162,9 @@ function SectionProduct1() {
 
           <div class="reveal-on-scroll bg-white rounded-xl shadow-md overflow-hidden transition-transform duration-300 hover:shadow-xl hover:-translate-y-2">
             <img
-              src="/menu/pindang.jpg"
+              loading="lazy"
+              decoding="async"
+              src="/menu/pindang.webp"
               alt="Pindang Patin"
               class="w-full h-48 object-cover"
             />
@@ -176,7 +186,9 @@ function SectionProduct1() {
 
           <div class="reveal-on-scroll bg-white rounded-xl shadow-md overflow-hidden transition-transform duration-300 hover:shadow-xl hover:-translate-y-2">
             <img
-              src="/menu/burgo.jpg"
+              loading="lazy"
+              decoding="async"
+              src="/menu/burgo.webp"
               alt="Burgo"
               class="w-full h-48 object-cover"
             />
@@ -198,7 +210,9 @@ function SectionProduct1() {
           </div>
           <div class="reveal-on-scroll bg-white rounded-xl shadow-md overflow-hidden transition-transform duration-300 hover:shadow-xl hover:-translate-y-2">
             <img
-              src="/menu/kojo.jpg"
+              loading="lazy"
+              decoding="async"
+              src="/menu/kojo.webp"
               alt="Bolu Kojo"
               class="w-full h-48 object-cover"
             />
@@ -219,7 +233,9 @@ function SectionProduct1() {
           </div>
           <div class="reveal-on-scroll bg-white rounded-xl shadow-md overflow-hidden transition-transform duration-300 hover:shadow-xl hover:-translate-y-2">
             <img
-              src="/menu/martabak.jpg"
+              loading="lazy"
+              decoding="async"
+              src="/menu/martabak.webp"
               alt="Martabak Kari"
               class="w-full h-48 object-cover"
             />
@@ -241,7 +257,9 @@ function SectionProduct1() {
           </div>
           <div class="reveal-on-scroll bg-white rounded-xl shadow-md overflow-hidden transition-transform duration-300 hover:shadow-xl hover:-translate-y-2">
             <img
-              src="/menu/tempoyak.jpg"
+              loading="lazy"
+              decoding="async"
+              src="/menu/tempoyak.webp"
               alt="Pindang Patin"
               class="w-full h-48 object-cover"
             />
@@ -263,7 +281,9 @@ function SectionProduct1() {
 
           <div class="reveal-on-scroll bg-white rounded-xl shadow-md overflow-hidden transition-transform duration-300 hover:shadow-xl hover:-translate-y-2">
             <img
-              src="/menu/kemplang.jpg"
+              loading="lazy"
+              decoding="async"
+              src="/menu/kemplang.webp"
               alt="Kemplang Ikan"
               class="w-full h-48 object-cover"
             />
@@ -300,7 +320,9 @@ function SectionProduct2() {
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 max-w-6xl mx-auto px-4">
           <div className="reveal-on-scroll bg-white rounded-xl shadow-md overflow-hidden transition-transform duration-300 hover:shadow-xl hover:-translate-y-2">
             <img
-              src="/menu/es kacang.jpg"
+              loading="lazy"
+              decoding="async"
+              src="/menu/es kacang.webp"
               alt="Es Kacang Merah"
               className="w-full h-48 object-cover"
             />
@@ -327,7 +349,9 @@ function SectionProduct2() {
 
           <div className="reveal-on-scroll bg-white rounded-xl shadow-md overflow-hidden transition-transform duration-300 hover:shadow-xl hover:-translate-y-2">
             <img
-              src="/menu/es jagung.jpg"
+              loading="lazy"
+              decoding="async"
+              src="/menu/es jagung.webp"
               alt="Es Jagung"
               className="w-full h-48 object-cover"
             />
@@ -351,7 +375,9 @@ function SectionProduct2() {
 
           <div className="reveal-on-scroll bg-white rounded-xl shadow-md overflow-hidden transition-transform duration-300 hover:shadow-xl hover:-translate-y-2">
             <img
-              src="/menu/es sugus.jpg"
+              loading="lazy"
+              decoding="async"
+              src="/menu/es sugus.webp"
               alt="Es Sugus"
               className="w-full h-48 object-cover"
             />
@@ -376,7 +402,9 @@ function SectionProduct2() {
 
           <div className="reveal-on-scroll bg-white rounded-xl shadow-md overflow-hidden transition-transform duration-300 hover:shadow-xl hover:-translate-y-2">
             <img
-              src="/menu/sop durian.jpg"
+              loading="lazy"
+              decoding="async"
+              src="/menu/sop durian.webp"
               alt="Sop Durian"
               className="w-full h-48 object-cover"
             />
@@ -401,7 +429,9 @@ function SectionProduct2() {
 
           <div className="reveal-on-scroll bg-white rounded-xl shadow-md overflow-hidden transition-transform duration-300 hover:shadow-xl hover:-translate-y-2">
             <img
-              src="/menu/teh secang.jpg"
+              loading="lazy"
+              decoding="async"
+              src="/menu/teh secang.webp"
               alt="Teh Secang"
               className="w-full h-48 object-cover"
             />
@@ -426,7 +456,9 @@ function SectionProduct2() {
 
           <div className="reveal-on-scroll bg-white rounded-xl shadow-md overflow-hidden transition-transform duration-300 hover:shadow-xl hover:-translate-y-2">
             <img
-              src="/menu/teh selasih pandan.jpg"
+              loading="lazy"
+              decoding="async"
+              src="/menu/teh selasih pandan.webp"
               alt="Teh Selasih Pandan"
               className="w-full h-48 object-cover"
             />

@@ -40,7 +40,7 @@ function HeroContact() {
       <div
         className="hero h-[760px]"
         style={{
-          backgroundImage: "url('/herocontact.jpg')",
+          backgroundImage: "url('/herocontact.webp')",
         }}
       >
         <div className="hero-overlay"></div>
@@ -136,7 +136,7 @@ function ContactSection() {
             </ul>
 
             <div className="mt-6 ml-2">
-              <img src="/qr.jpeg" alt="QR Code" className="w-50 rounded-md" />
+              <img src="/qr.jpeg" alt="QR Code" loading="lazy" decoding="async" className="w-50 rounded-md" />
             </div>
           </div>
 

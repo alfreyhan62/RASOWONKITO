@@ -36,7 +36,7 @@ function HeroSection() {
       <div
         className="hero h-[760px]"
         style={{
-          backgroundImage: "url('/home.jpg')",
+          backgroundImage: "url('/home.webp')",
         }}
       >
         <div className="hero-overlay"></div>
@@ -109,6 +109,8 @@ function Section3() {
         <div className="card reveal-on-scroll bg-base-100 w-80 shadow-md border border-gray-100 rounded-xl transition-transform duration-300 hover:shadow-xl hover:-translate-y-2">
           <figure className="p-4">
             <img
+              loading="lazy"
+              decoding="async"
               src="https://i.pinimg.com/736x/55/ee/c4/55eec412da158bf3c5ea773a9715791e.jpg"
               alt="Global Reach"
               className="rounded-xl h-48 object-cover"
@@ -127,6 +129,8 @@ function Section3() {
         <div className="card reveal-on-scroll bg-base-100 w-80 shadow-md border border-gray-100 rounded-xl transition-transform duration-300 hover:shadow-xl hover:-translate-y-2">
           <figure className="p-4">
             <img
+              loading="lazy"
+              decoding="async"
               src="https://i.pinimg.com/736x/41/b2/a8/41b2a8fa086538cad0cce2a9f0afcfc6.jpg"
               alt="Quality Assurance"
               className="rounded-xl h-48 object-cover"
@@ -145,6 +149,8 @@ function Section3() {
         <div className="card reveal-on-scroll bg-base-100 w-80 shadow-md border border-gray-100 rounded-xl transition-transform duration-300 hover:shadow-xl hover:-translate-y-2">
           <figure className="p-4">
             <img
+              loading="lazy"
+              decoding="async"
               src="https://i.pinimg.com/736x/00/3d/d0/003dd07235aff66e23c4c3218706b156.jpg"
               alt="Sustainability"
               className="rounded-xl h-48 object-cover"
@@ -174,7 +180,7 @@ function Section4() {
         {/* Slide 1 */}
         <div id="slide1" tabIndex={0} className="carousel-item relative w-full">
           <img
-            src="/testimoni/1.png"
+            src="/testimoni/1.webp"
             className="w-full h-72 md:h-96 object-cover rounded-3xl"
             alt="Slide 1"
           />
@@ -197,7 +203,7 @@ function Section4() {
         {/* Slide 2 */}
         <div id="slide2" tabIndex={0} className="carousel-item relative w-full">
           <img
-            src="/testimoni/2.png"
+            src="/testimoni/2.webp"
             className="w-full h-72 md:h-96 object-cover rounded-3xl"
             alt="Slide 2"
           />
@@ -220,7 +226,7 @@ function Section4() {
         {/* Slide 3 */}
         <div id="slide3" tabIndex={0} className="carousel-item relative w-full">
           <img
-            src="/testimoni/3.png"
+            src="/testimoni/3.webp"
             className="w-full h-72 md:h-96 object-cover rounded-3xl"
             alt="Slide 3"
           />
@@ -243,7 +249,7 @@ function Section4() {
         {/* Slide 4 */}
         <div id="slide4" tabIndex={0} className="carousel-item relative w-full">
           <img
-            src="/testimoni/4.png"
+            src="/testimoni/4.webp"
             className="w-full h-72 md:h-96 object-cover rounded-3xl"
             alt="Slide 4"
           />
