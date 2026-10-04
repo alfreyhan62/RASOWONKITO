@@ -1,0 +1,214 @@
+@import "tailwindcss";
+@plugin "daisyui" {
+    themes: light --default;
+}
+
+:root {
+  color: #3b1d1a;
+  background: #f5ead8;
+}
+
+body {
+  min-width: 320px;
+  min-height: 100vh;
+  color: #543b32;
+  background:
+    radial-gradient(circle at 10% 8%, rgb(243 192 92 / 46%), transparent 26rem),
+    radial-gradient(circle at 92% 24%, rgb(145 45 39 / 25%), transparent 30rem),
+    radial-gradient(circle at 45% 100%, rgb(202 139 62 / 22%), transparent 32rem),
+    linear-gradient(135deg, #fff9ed, #f3e2c5 52%, #ead0ae);
+}
+
+h1,
+h2,
+h3,
+.card-title {
+  color: #6d3029 !important;
+}
+
+[class*="text-gray-"],
+[class*="text-black"] {
+  color: #62493f !important;
+}
+
+[class*="text-red-"] {
+  color: #91443a !important;
+}
+
+[class*="text-yellow-"] {
+  color: #a86f23 !important;
+}
+
+.hero-content [class*="text-"],
+nav.fixed [class*="text-"],
+footer [class*="text-"] {
+  color: #fffaf0 !important;
+}
+
+.hero.bg-base-200 .hero-content {
+  border: 1px solid rgb(255 255 255 / 58%);
+  border-radius: 1.5rem;
+  padding: 2rem;
+  background: rgb(255 250 237 / 38%);
+  box-shadow: 0 12px 35px rgb(94 42 25 / 12%), inset 0 1px 0 rgb(255 255 255 / 65%);
+  backdrop-filter: blur(8px) saturate(120%);
+  -webkit-backdrop-filter: blur(8px) saturate(120%);
+}
+
+.hero.bg-base-200 .hero-content p,
+.hero.bg-base-200 .hero-content span {
+  color: #543b32 !important;
+}
+
+.hero.bg-base-200 .hero-content [class*="text-red-"] {
+  color: #91443a !important;
+}
+
+button,
+a.btn,
+input,
+textarea,
+.tabs,
+.card,
+.grid > div.bg-white,
+.max-w-7xl.mx-auto.px-4.shadow-2xl,
+.hero-content > div {
+  border: 1px solid rgb(255 255 255 / 65%);
+  background: rgb(255 255 255 / 18%) !important;
+  box-shadow: 0 12px 35px rgb(94 42 25 / 12%), inset 0 1px 0 rgb(255 255 255 / 55%);
+  backdrop-filter: blur(10px) saturate(130%);
+  -webkit-backdrop-filter: blur(10px) saturate(130%);
+}
+
+button,
+a.btn,
+a[class*="bg-"] {
+  border-radius: 1rem;
+  color: #4b2118 !important;
+  font-weight: 700;
+  background: linear-gradient(115deg, rgb(255 247 222 / 42%), rgb(248 194 99 / 30%), rgb(140 42 34 / 26%)) !important;
+  background-size: 220% 220% !important;
+  transition: transform 180ms ease, background-position 350ms ease, box-shadow 180ms ease, color 180ms ease;
+}
+
+button:hover,
+a.btn:hover,
+a[class*="bg-"]:hover {
+  color: #fffaf0 !important;
+  background-position: 100% 50% !important;
+  box-shadow: 0 16px 30px rgb(94 42 25 / 22%), inset 0 1px 0 rgb(255 255 255 / 75%);
+  transform: translateY(-2px);
+}
+
+button:focus-visible,
+a:focus-visible,
+input:focus,
+textarea:focus {
+  outline: 3px solid rgb(164 67 45 / 65%);
+  outline-offset: 3px;
+}
+
+input,
+textarea {
+  color: #3c211c !important;
+}
+
+input::placeholder,
+textarea::placeholder {
+  color: rgb(75 33 24 / 65%) !important;
+}
+
+.card,
+.grid > div.bg-white,
+.max-w-7xl.mx-auto.px-4.shadow-2xl {
+  border-radius: 1.25rem;
+  overflow: hidden;
+}
+
+nav.fixed {
+  border-bottom: 1px solid rgb(255 255 255 / 35%);
+  background: rgb(72 25 19 / 24%) !important;
+  box-shadow: 0 8px 30px rgb(47 18 12 / 10%);
+  backdrop-filter: blur(10px) saturate(125%);
+  -webkit-backdrop-filter: blur(10px) saturate(125%);
+}
+
+nav.fixed,
+nav.fixed ul {
+  color: white !important;
+}
+
+footer {
+  border-top: 1px solid rgb(255 255 255 / 35%);
+  background: rgb(98 28 20 / 55%) !important;
+  backdrop-filter: blur(10px) saturate(120%);
+  -webkit-backdrop-filter: blur(10px) saturate(120%);
+}
+
+.hero-content > div {
+  border-radius: 1.5rem;
+  padding: 2rem;
+}
+
+.reveal-on-scroll {
+  opacity: 0;
+  transform: translateY(28px) scale(.96);
+  transition: opacity 600ms ease, transform 600ms cubic-bezier(.2, .8, .2, 1);
+}
+
+.reveal-on-scroll.is-visible {
+  opacity: 1;
+  transform: translateY(0) scale(1);
+}
+
+@keyframes glass-pop-in {
+  from {
+    opacity: 0;
+    transform: translateY(28px) scale(.96);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .max-w-screen-lg.mx-auto > .text-center,
+  .timeline > li {
+    animation: none;
+  }
+}
+
+@keyframes page-overlay-exit {
+  from {
+    opacity: .42;
+  }
+
+  to {
+    opacity: 0;
+  }
+}
+
+.page-transition::before {
+  position: fixed;
+  z-index: 40;
+  inset: 0;
+  pointer-events: none;
+  content: "";
+  background: #6d3029;
+  animation: page-overlay-exit 340ms ease-out both;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .page-transition::before {
+    animation: none;
+  }
+}
+
+@media (max-width: 640px) {
+  .hero-content > div {
+    margin-inline: 1rem;
+    padding: 1.5rem;
+  }
+}
