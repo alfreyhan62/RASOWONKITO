@@ -223,9 +223,78 @@ footer {
   }
 }
 
+#root {
+  width: 100%;
+}
+
+img,
+iframe {
+  max-width: 100%;
+}
+
 @media (max-width: 640px) {
+  body {
+    display: block;
+  }
+
+  nav.fixed h1 {
+    font-size: 1.25rem !important;
+  }
+
+  nav.fixed ul {
+    flex-wrap: nowrap;
+    justify-content: center;
+    gap: .15rem;
+    padding: .5rem .25rem 0;
+    font-size: .75rem;
+  }
+
+  nav.fixed ul li {
+    flex: none;
+  }
+
+  nav.fixed a {
+    display: block;
+    padding: .25rem .35rem;
+  }
+
+  .hero.h-\[760px\] {
+    min-height: 36rem;
+    height: auto;
+  }
+
+  .hero.h-\[80vh\] {
+    height: auto;
+    min-height: 0;
+    padding-block: 3rem;
+  }
+
+  .hero-content {
+    width: 100%;
+    padding-inline: 1rem;
+  }
+
   .hero-content > div {
-    margin-inline: 1rem;
-    padding: 1.5rem;
+    width: 100%;
+    margin-inline: 0;
+    padding: 1.25rem;
+  }
+
+  .hero-content h1,
+  section h2.text-5xl {
+    font-size: 2.25rem !important;
+  }
+
+  .hero-content p {
+    font-size: 1rem !important;
+  }
+
+  .hero-content img.w-xl,
+  .max-w-195 img.w-120 {
+    width: 100%;
+  }
+
+  .hero-content .pr-6 {
+    padding-right: 0;
   }
 }
